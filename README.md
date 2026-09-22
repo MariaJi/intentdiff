@@ -79,24 +79,6 @@ The orchestration creates a parent workflow span containing calls to the three s
 For a production deployment, observability could be extended with classification distributions, human-review frequency and outcomes, cost monitoring, and regression tracking across prompt, model, and agent changes.
 
 ## Running the Project
-
-### Prerequisites
-
-- Python 3.11+
-- An Azure AI Foundry project
-- Azure CLI authentication
-- Access to the three configured Foundry agents:
-  - `intent-agent`
-  - `planner-agent`
-  - `intent-diff-agent`
-
-### Install dependencies
-
-```bash
-pip install -r requirements.txt
-
-## Running the Project
-
 ### Prerequisites
 
 - Python 3.11+
