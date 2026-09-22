@@ -104,6 +104,7 @@ PowerShell:
 
 ```powershell
 $env:AZURE_AI_PROJECT_ENDPOINT="https://<your-resource>.services.ai.azure.com/api/projects/<your-project>"
+$env:INTENTDIFF_EVAL_ID="<your-evaluation-id>"
 ```
 
 ### Run IntentDiff
